@@ -1,6 +1,6 @@
 Algoritmo "Média"
 // Lógica de Programação Orientada a Objeto
-// Aldo Henrique 
+// Aldo Henrique
 
 var
 med,min,max,sm: real
@@ -18,15 +18,15 @@ escreval("Insira média do aluno:")
 enquanto med>=0 faça
 escreval("Insira média do aluno:")
    leia(med)
-      se(med>0)então
+      se(med>=0)então
 
          se(med>max)então
             max<-med
          fimse
-         se(med<min)e(med>0)então
+         se(med<min)e(med>=0)então
             min<-med
          fimse
-         
+
          sm<-(sm+med)
          count<-(count+1)
       fimse
@@ -42,5 +42,5 @@ fimenquanto
             limpatela
             escreva("Nota negativa encontrada.")
       fimse
-      
+
 fimalgoritmo
