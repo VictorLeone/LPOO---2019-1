@@ -1,17 +1,17 @@
 Algoritmo "Mod 11 = 5"
-// LÛgica de ProgramaÁ„o Orientada a Objeto
+// L√≥gica de Programa√ß√£o Orientada a Objeto
 // Aldo Henrique 
 
 Var
-a,b: inteiro
+a: inteiro
 init: caractere
 
 Inicio
-escreval("Divis„o por 11 com resto 5. Pressione Enter para comeÁar.")
+escreval("Divis√£o por 11 com resto 5. Pressione Enter para come√ßar.")
 leia(init)
 
-para a de 1000 atÈ 1999 faÁa
-   se(a mod 11 = 5)ent„o
+para a de 1000 at√© 1999 fa√ßa
+   se(a mod 11 = 5)ent√£o
       escreval(a)
    fimse
 fimpara
