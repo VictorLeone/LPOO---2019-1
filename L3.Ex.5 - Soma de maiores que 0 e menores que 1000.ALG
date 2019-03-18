@@ -1,30 +1,32 @@
 Algoritmo "Soma de positivos menores que 1000"
-// Lógica de Programação Orientada a Objeto
-// Aldo Henrique 
+// LÃ³gica de ProgramaÃ§Ã£o Orientada a Objeto
+// Aldo Henrique
 
 Var
-n,somap,somai,count:inteiro
+   n,somap,somai,count:inteiro
 
 Inicio
-escreval("Insira apenas números positivos inferiores a 1000!")
+   escreval("Insira apenas nÃºmeros positivos inferiores a 1000!")
 
-repita
-   escreva("Digite um número:")
+   repita
+      escreva("Digite um nÃºmero:")
       leia(n)
-         se(n<0)então
-            escreval("")
-            escreval("O valor digitado não é um número positivo! Tente novamente.")
-            escreval("")
-         fimse
-         se(n mod 2 = 0)e(n>0)então
+      se(n<0)entÃ£o
+         escreval("")
+         escreval("O valor digitado nÃ£o Ã© um nÃºmero positivo! Tente novamente.")
+         escreval("")
+      senao
+         se(n mod 2 = 0)e(n<1000)entÃ£o
             somap<-somap+n
          fimse
-         se(n mod 2 = 1)e(n>0) então
+         se(n mod 2 = 1)e(n<1000) entÃ£o
             somai<-somai+n
          fimse
-até(n>=1000)ou(somap>=1000)ou(somai>=1000)
-limpatela
-escreval("A soma dos números pares é: ",somap)
-escreval("A soma dos números ímpares é: ",somai)
+      fimse
+   atÃ©(n>=1000)ou(somap>=1000)ou(somai>=1000)
+
+   limpatela
+   escreval("A soma dos nÃºmeros pares Ã©: ",somap)
+   escreval("A soma dos nÃºmeros Ã­mpares Ã©: ",somai)
 
 Fimalgoritmo
