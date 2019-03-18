@@ -1,5 +1,5 @@
-Algoritmo "MÈdia"
-// LÛgica de ProgramaÁ„o Orientada a Objeto
+Algoritmo "M√©dia"
+// L√≥gica de Programa√ß√£o Orientada a Objeto
 // Aldo Henrique 
 
 var
@@ -7,7 +7,7 @@ med,min,max,sm: real
 count: inteiro
 
 inicio
-escreval("Insira mÈdia do aluno:")
+escreval("Insira m√©dia do aluno:")
    leia(med)
       se(med>=0)entao
          max<-med
@@ -15,14 +15,15 @@ escreval("Insira mÈdia do aluno:")
          sm<-med
          count<-1
 
-enquanto med>=0 faÁa
+enquanto med>=0 fa√ßa
+escreval("Insira m√©dia do aluno:")
    leia(med)
-      se(med>0)ent„o
+      se(med>0)ent√£o
 
-         se(med>max)ent„o
+         se(med>max)ent√£o
             max<-med
          fimse
-         se(med<min)e(med>0)ent„o
+         se(med<min)e(med>0)ent√£o
             min<-med
          fimse
          
@@ -33,11 +34,11 @@ fimenquanto
 
    med<-(sm/count)
       limpatela
-      escreval("Maior mÈdia individual: ", max)
-      escreval("Menor mÈdia individual: ", min)
-      escreval("MÈdia da Turma: ",(med):4:2)
+      escreval("Maior m√©dia individual: ", max)
+      escreval("Menor m√©dia individual: ", min)
+      escreval("M√©dia da Turma: ",(med):4:2)
 
-         sen„o
+         sen√£o
             limpatela
             escreva("Nota negativa encontrada.")
       fimse
